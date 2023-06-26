@@ -455,8 +455,11 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
 
-# Authentication URLs
-LOGIN_URL = f'/{BASE_PATH}login/'
+# Authentication URLs, if the LOGIN_URL have not been defined in the configuration, default to '/{BASE_PATH}login/'
+# Typical usecase for defining the LOGIN_URL will be to redirect to a SSO provider.
+if 'LOGIN_URL' not in vars():
+    LOGIN_URL = f'/{BASE_PATH}login/'
+
 LOGIN_REDIRECT_URL = f'/{BASE_PATH}'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
