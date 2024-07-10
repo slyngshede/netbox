@@ -1,10 +1,9 @@
 # See PEP 518 for the spec of this file
 # https://www.python.org/dev/peps/pep-0518/
-[options]
-packages = find:
-
-[options.packages.find]
-exclude = contrib
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["netbox"]
+namespaces = false
 
 [tool.black]
 line-length = 120
