@@ -2,11 +2,8 @@
 # https://www.python.org/dev/peps/pep-0518/
 [options]
 packages = find:
-package_dir =
-    =netbox
 
 [options.packages.find]
-where = .
 exclude = contrib
 
 [tool.black]
