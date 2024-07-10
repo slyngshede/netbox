@@ -8,6 +8,9 @@ name = "netbox"
 dynamic = ["dependencies"]
 version = "4.0.7"
 
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
 [tool.black]
 line-length = 120
 target_version = ['py310', 'py311', 'py312']
