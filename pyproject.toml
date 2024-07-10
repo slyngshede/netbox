@@ -1,9 +1,12 @@
 # See PEP 518 for the spec of this file
 # https://www.python.org/dev/peps/pep-0518/
 [tool.setuptools.packages.find]
-where = ["."]
 include = ["netbox"]
-namespaces = false
+
+[project]
+name = "netbox"
+dynamic = ["dependencies"]
+version = "4.0.7"
 
 [tool.black]
 line-length = 120
