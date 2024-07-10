@@ -1,5 +1,7 @@
 # See PEP 518 for the spec of this file
 # https://www.python.org/dev/peps/pep-0518/
+[options]
+packages = netbox
 
 [tool.black]
 line-length = 120
