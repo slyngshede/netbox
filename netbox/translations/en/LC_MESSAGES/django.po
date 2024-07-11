@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-10 05:01+0000\n"
+"POT-Creation-Date: 2024-07-11 05:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,7 +58,7 @@ msgstr ""
 msgid "Allowed IPs"
 msgstr ""
 
-#: netbox/account/views.py:204
+#: netbox/account/views.py:214
 msgid "Your preferences have been updated."
 msgstr ""
 
@@ -9635,7 +9635,7 @@ msgstr ""
 msgid "Invalid value. Specify a content type as '<app_label>.<model_name>'."
 msgstr ""
 
-#: netbox/netbox/authentication/__init__.py:138
+#: netbox/netbox/authentication/__init__.py:141
 #, python-brace-format
 msgid "Invalid permission {permission} for model {model}"
 msgstr ""
